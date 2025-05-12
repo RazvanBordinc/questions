@@ -1,1 +1,17 @@
-{}
+[
+  {
+    "id": 1,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize the following word pairs and recall the missing words",
+    "memorizationTime": 15,
+    "pairs": [
+      ["boat", "apple"],
+      ["mountain", "coffee"],
+      ["laptop", "forest"],
+      ["bicycle", "ocean"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:apple,pair-1-word-0:mountain,pair-2-word-1:forest,pair-3-word-0:bicycle"
+  }
+]

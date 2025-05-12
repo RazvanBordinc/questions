@@ -1,1 +1,17 @@
-{}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "What number comes next in the sequence: 2, 4, 8, 16, ?",
+    "options": ["24", "32", "28", "30", "36", "40"],
+    "correctAnswer": "32"
+  },
+  {
+    "id": 2,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "Fill in the missing number: 1, 3, _, 7, 9",
+    "correctAnswer": "5"
+  }
+]

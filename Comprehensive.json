@@ -1,1 +1,32 @@
-{}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "What is the next number in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ?",
+    "options": ["10", "11", "12", "13", "14", "15"],
+    "correctAnswer": "13"
+  },
+  {
+    "id": 2,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is the odd one out?",
+    "options": ["Lion", "Tiger", "Elephant", "Sparrow", "Cheetah", "Leopard"],
+    "correctAnswer": "Sparrow"
+  },
+  {
+    "id": 3,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these word pairs and recall the missing words",
+    "memorizationTime": 20,
+    "pairs": [
+      ["sun", "moon"],
+      ["car", "road"],
+      ["book", "page"]
+    ],
+    "missingIndices": [[1], [0], [1]],
+    "correctAnswer": "pair-0-word-1:moon,pair-1-word-0:car,pair-2-word-1:page"
+  }
+]

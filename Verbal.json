@@ -1,1 +1,24 @@
-{}
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is closest in meaning to 'ephemeral'?",
+    "options": [
+      "Permanent",
+      "Temporary",
+      "Important",
+      "Colorful",
+      "Spiritual",
+      "Dramatic"
+    ],
+    "correctAnswer": "Temporary"
+  },
+  {
+    "id": 2,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Book is to Reading as Fork is to _____",
+    "correctAnswer": "Eating"
+  }
+]
