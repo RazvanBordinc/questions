@@ -4,21 +4,258 @@
     "type": "multiple-choice",
     "category": "verbal",
     "text": "Which word is closest in meaning to 'ephemeral'?",
-    "options": [
-      "Permanent",
-      "Temporary",
-      "Important",
-      "Colorful",
-      "Spiritual",
-      "Dramatic"
-    ],
-    "correctAnswer": "Temporary"
+    "options": ["Permanent", "Temporary", "Important", "Colorful", "Spiritual", "Dramatic"],
+    "correctAnswer": "Temporary",
+    "weight": 7
   },
   {
     "id": 2,
     "type": "fill-in-gap",
     "category": "verbal",
     "text": "Complete the analogy: Book is to Reading as Fork is to _____",
-    "correctAnswer": "Eating"
+    "correctAnswer": "Eating",
+    "weight": 3
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is the odd one out?",
+    "options": ["Lion", "Tiger", "Elephant", "Sparrow", "Cheetah", "Leopard"],
+    "correctAnswer": "Sparrow",
+    "weight": 4
+  },
+  {
+    "id": 4,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Happy is to Sad as Rich is to _____",
+    "correctAnswer": "Poor",
+    "weight": 2
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is closest in meaning to 'ubiquitous'?",
+    "options": ["Rare", "Special", "Widespread", "Invisible", "Dangerous", "Valuable"],
+    "correctAnswer": "Widespread",
+    "weight": 8
+  },
+  {
+    "id": 6,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the proverb: 'A bird in hand is worth _____ in the bush'",
+    "correctAnswer": "two",
+    "weight": 3
+  },
+  {
+    "id": 7,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which sentence contains a grammatical error?",
+    "options": [
+      "She went to the store yesterday.",
+      "They're going to the park tomorrow.",
+      "He should of called earlier.",
+      "We saw a movie last weekend.",
+      "The cat chased the mouse.",
+      "I am feeling well today."
+    ],
+    "correctAnswer": "He should of called earlier.",
+    "weight": 5
+  },
+  {
+    "id": 8,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Doctor is to Patient as Teacher is to _____",
+    "correctAnswer": "Student",
+    "weight": 2
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is the antonym of 'benevolent'?",
+    "options": ["Friendly", "Malicious", "Kind", "Generous", "Charitable", "Humble"],
+    "correctAnswer": "Malicious",
+    "weight": 7
+  },
+  {
+    "id": 10,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "What word completes this sequence: cup, pup, up, _____",
+    "correctAnswer": "p",
+    "weight": 4
+  },
+  {
+    "id": 11,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which pair of words represents the same relationship as 'hot' and 'cold'?",
+    "options": [
+      "dark and light",
+      "tall and short",
+      "happy and joyful",
+      "round and square",
+      "fast and quick",
+      "high and elevated"
+    ],
+    "correctAnswer": "tall and short",
+    "weight": 5
+  },
+  {
+    "id": 12,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the word: C _ N F _ S _ O N",
+    "correctAnswer": "ONFUSIO",
+    "weight": 6
+  },
+  {
+    "id": 13,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which of these words is a synonym for 'loquacious'?",
+    "options": ["Silent", "Talkative", "Hungry", "Lazy", "Angry", "Intelligent"],
+    "correctAnswer": "Talkative",
+    "weight": 8
+  },
+  {
+    "id": 14,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the sequence: January, March, May, _____",
+    "correctAnswer": "July",
+    "weight": 3
+  },
+  {
+    "id": 15,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which sentence uses the word 'their' correctly?",
+    "options": [
+      "Their going to the concert tonight.",
+      "The books are over their on the shelf.",
+      "They're books are on the shelf.",
+      "The students completed their assignments.",
+      "The dog chased it's tail.",
+      "There dog is very friendly."
+    ],
+    "correctAnswer": "The students completed their assignments.",
+    "weight": 4
+  },
+  {
+    "id": 16,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Water is to Thirst as Food is to _____",
+    "correctAnswer": "Hunger",
+    "weight": 3
+  },
+  {
+    "id": 17,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which of these words does not belong with the others?",
+    "options": ["Apple", "Banana", "Cherry", "Carrot", "Orange", "Grape"],
+    "correctAnswer": "Carrot",
+    "weight": 3
+  },
+  {
+    "id": 18,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the saying: 'The early bird catches the _____'",
+    "correctAnswer": "worm",
+    "weight": 2
+  },
+  {
+    "id": 19,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is closest in meaning to 'pernicious'?",
+    "options": ["Harmless", "Harmful", "Helpful", "Hopeful", "Heavy", "Happy"],
+    "correctAnswer": "Harmful",
+    "weight": 9
+  },
+  {
+    "id": 20,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "What comes next in this letter pattern: A, C, F, J, _____",
+    "correctAnswer": "O",
+    "weight": 7
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "A 'neophyte' is:",
+    "options": ["A type of mineral", "A beginner", "An expert", "A tropical plant", "An ancient scroll", "A medical condition"],
+    "correctAnswer": "A beginner",
+    "weight": 8
+  },
+  {
+    "id": 22,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Fish is to School as Wolf is to _____",
+    "correctAnswer": "Pack",
+    "weight": 5
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is misspelled?",
+    "options": ["Necessary", "Separate", "Accommodation", "Occassion", "Psychology", "Convenient"],
+    "correctAnswer": "Occassion",
+    "weight": 6
+  },
+  {
+    "id": 24,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the proverb: 'Don't count your chickens before they _____'",
+    "correctAnswer": "hatch",
+    "weight": 4
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "If you 'prevaricate', you:",
+    "options": ["Speak truthfully", "Lie or evade the truth", "Think deeply", "Calculate quickly", "Write poetry", "Dance gracefully"],
+    "correctAnswer": "Lie or evade the truth",
+    "weight": 9
+  },
+  {
+    "id": 26,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Hand is to Glove as Foot is to _____",
+    "correctAnswer": "Shoe",
+    "weight": 2
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word best completes this sentence: 'His argument was so _____ that even his opponents were convinced.'",
+    "options": ["Flimsy", "Cogent", "Ridiculous", "Biased", "Flawed", "Concise"],
+    "correctAnswer": "Cogent",
+    "weight": 8
+  },
+  {
+    "id": 28,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "In the word 'disambiguation', what is the root word?",
+    "correctAnswer": "ambig",
+    "weight": 7
   }
 ]
