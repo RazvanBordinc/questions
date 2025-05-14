@@ -12,6 +12,308 @@
       ["bicycle", "ocean"]
     ],
     "missingIndices": [[1], [0], [1], [0]],
-    "correctAnswer": "pair-0-word-1:apple,pair-1-word-0:mountain,pair-2-word-1:forest,pair-3-word-0:bicycle"
+    "correctAnswer": "pair-0-word-1:apple,pair-1-word-0:mountain,pair-2-word-1:forest,pair-3-word-0:bicycle",
+    "weight": 3
+  },
+  {
+    "id": 2,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these word pairs and recall the missing words",
+    "memorizationTime": 18,
+    "pairs": [
+      ["moon", "silver"],
+      ["doctor", "hospital"],
+      ["river", "bridge"],
+      ["teacher", "classroom"]
+    ],
+    "missingIndices": [[0], [1], [0], [1]],
+    "correctAnswer": "pair-0-word-0:moon,pair-1-word-1:hospital,pair-2-word-0:river,pair-3-word-1:classroom",
+    "weight": 4
+  },
+  {
+    "id": 3,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these triplets and recall the missing words",
+    "memorizationTime": 25,
+    "pairs": [
+      ["dog", "cat", "bird"],
+      ["red", "green", "blue"],
+      ["fork", "knife", "spoon"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 1]],
+    "correctAnswer": "pair-0-word-0:dog,pair-0-word-2:bird,pair-1-word-1:green,pair-2-word-0:fork,pair-2-word-1:knife",
+    "weight": 6
+  },
+  {
+    "id": 4,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these number pairs and recall the missing numbers",
+    "memorizationTime": 15,
+    "pairs": [
+      ["23", "47"],
+      ["81", "35"],
+      ["56", "92"],
+      ["17", "63"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:47,pair-1-word-0:81,pair-2-word-1:92,pair-3-word-0:17",
+    "weight": 4
+  },
+  {
+    "id": 5,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these word-number pairs and recall the missing values",
+    "memorizationTime": 20,
+    "pairs": [
+      ["apple", "7"],
+      ["car", "23"],
+      ["book", "16"],
+      ["house", "42"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:7,pair-1-word-0:car,pair-2-word-1:16,pair-3-word-0:house",
+    "weight": 5
+  },
+  {
+    "id": 6,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these triplets and recall the missing words",
+    "memorizationTime": 30,
+    "pairs": [
+      ["lion", "tiger", "elephant"],
+      ["gold", "silver", "bronze"],
+      ["sun", "moon", "stars"],
+      ["apple", "banana", "orange"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2], [1]],
+    "correctAnswer": "pair-0-word-0:lion,pair-0-word-2:elephant,pair-1-word-1:silver,pair-2-word-0:sun,pair-2-word-2:stars,pair-3-word-1:banana",
+    "weight": 7
+  },
+  {
+    "id": 7,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these country-capital pairs and recall the missing names",
+    "memorizationTime": 20,
+    "pairs": [
+      ["France", "Paris"],
+      ["Japan", "Tokyo"],
+      ["Brazil", "Brasilia"],
+      ["Egypt", "Cairo"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:Paris,pair-1-word-0:Japan,pair-2-word-1:Brasilia,pair-3-word-0:Egypt",
+    "weight": 5
+  },
+  {
+    "id": 8,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these word pairs and recall the missing words",
+    "memorizationTime": 18,
+    "pairs": [
+      ["butter", "bread"],
+      ["lock", "key"],
+      ["shoe", "sock"],
+      ["pen", "paper"]
+    ],
+    "missingIndices": [[0], [1], [0], [1]],
+    "correctAnswer": "pair-0-word-0:butter,pair-1-word-1:key,pair-2-word-0:shoe,pair-3-word-1:paper",
+    "weight": 3
+  },
+  {
+    "id": 9,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these triplets and recall the missing elements",
+    "memorizationTime": 25,
+    "pairs": [
+      ["square", "triangle", "circle"],
+      ["breakfast", "lunch", "dinner"],
+      ["water", "juice", "milk"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2]],
+    "correctAnswer": "pair-0-word-0:square,pair-0-word-2:circle,pair-1-word-1:lunch,pair-2-word-0:water,pair-2-word-2:milk",
+    "weight": 6
+  },
+  {
+    "id": 10,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these color-object pairs and recall the missing words",
+    "memorizationTime": 20,
+    "pairs": [
+      ["red", "apple"],
+      ["blue", "sky"],
+      ["green", "grass"],
+      ["yellow", "sun"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:apple,pair-1-word-0:blue,pair-2-word-1:grass,pair-3-word-0:yellow",
+    "weight": 4
+  },
+  {
+    "id": 11,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these word sequences and recall the missing words",
+    "memorizationTime": 30,
+    "pairs": [
+      ["summer", "autumn", "winter"],
+      ["first", "second", "third"],
+      ["morning", "afternoon", "evening"],
+      ["child", "adult", "elderly"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2], [1]],
+    "correctAnswer": "pair-0-word-0:summer,pair-0-word-2:winter,pair-1-word-1:second,pair-2-word-0:morning,pair-2-word-2:evening,pair-3-word-1:adult",
+    "weight": 7
+  },
+  {
+    "id": 12,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these location pairs and recall the missing places",
+    "memorizationTime": 20,
+    "pairs": [
+      ["kitchen", "bathroom"],
+      ["airport", "station"],
+      ["library", "museum"],
+      ["beach", "mountain"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:bathroom,pair-1-word-0:airport,pair-2-word-1:museum,pair-3-word-0:beach",
+    "weight": 4
+  },
+  {
+    "id": 13,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these three-digit numbers and recall the missing digits",
+    "memorizationTime": 25,
+    "pairs": [
+      ["123", "456", "789"],
+      ["246", "357", "468"],
+      ["159", "753", "951"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2]],
+    "correctAnswer": "pair-0-word-0:123,pair-0-word-2:789,pair-1-word-1:357,pair-2-word-0:159,pair-2-word-2:951",
+    "weight": 8
+  },
+  {
+    "id": 14,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these word-emotion pairs and recall the missing words",
+    "memorizationTime": 20,
+    "pairs": [
+      ["smile", "happy"],
+      ["tears", "sad"],
+      ["shout", "angry"],
+      ["hug", "love"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:happy,pair-1-word-0:tears,pair-2-word-1:angry,pair-3-word-0:hug",
+    "weight": 4
+  },
+  {
+    "id": 15,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these occupation-tool pairs and recall the missing items",
+    "memorizationTime": 22,
+    "pairs": [
+      ["carpenter", "hammer"],
+      ["chef", "knife"],
+      ["painter", "brush"],
+      ["doctor", "stethoscope"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:hammer,pair-1-word-0:chef,pair-2-word-1:brush,pair-3-word-0:doctor",
+    "weight": 5
+  },
+  {
+    "id": 16,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these animal-habitat triplets and recall the missing elements",
+    "memorizationTime": 35,
+    "pairs": [
+      ["fish", "water", "ocean"],
+      ["bird", "nest", "tree"],
+      ["lion", "pride", "savanna"],
+      ["bee", "hive", "forest"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2], [1]],
+    "correctAnswer": "pair-0-word-0:fish,pair-0-word-2:ocean,pair-1-word-1:nest,pair-2-word-0:lion,pair-2-word-2:savanna,pair-3-word-1:hive",
+    "weight": 8
+  },
+  {
+    "id": 17,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these book-author pairs and recall the missing names",
+    "memorizationTime": 25,
+    "pairs": [
+      ["1984", "Orwell"],
+      ["Hamlet", "Shakespeare"],
+      ["Odyssey", "Homer"],
+      ["Frankenstein", "Shelley"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:Orwell,pair-1-word-0:Hamlet,pair-2-word-1:Homer,pair-3-word-0:Frankenstein",
+    "weight": 7
+  },
+  {
+    "id": 18,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these capital-country-continent triplets and recall the missing elements",
+    "memorizationTime": 35,
+    "pairs": [
+      ["Rome", "Italy", "Europe"],
+      ["Beijing", "China", "Asia"],
+      ["Cairo", "Egypt", "Africa"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2]],
+    "correctAnswer": "pair-0-word-0:Rome,pair-0-word-2:Europe,pair-1-word-1:China,pair-2-word-0:Cairo,pair-2-word-2:Africa",
+    "weight": 9
+  },
+  {
+    "id": 19,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these object-color-size triplets and recall the missing elements",
+    "memorizationTime": 30,
+    "pairs": [
+      ["ball", "red", "small"],
+      ["book", "blue", "medium"],
+      ["chair", "brown", "large"],
+      ["pen", "black", "tiny"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2], [1]],
+    "correctAnswer": "pair-0-word-0:ball,pair-0-word-2:small,pair-1-word-1:blue,pair-2-word-0:chair,pair-2-word-2:large,pair-3-word-1:black",
+    "weight": 8
+  },
+  {
+    "id": 20,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these animal-sound pairs and recall the missing elements",
+    "memorizationTime": 20,
+    "pairs": [
+      ["dog", "bark"],
+      ["cat", "meow"],
+      ["cow", "moo"],
+      ["lion", "roar"],
+      ["bird", "chirp"]
+    ],
+    "missingIndices": [[1], [0], [1], [0], [1]],
+    "correctAnswer": "pair-0-word-1:bark,pair-1-word-0:cat,pair-2-word-1:moo,pair-3-word-0:lion,pair-4-word-1:chirp",
+    "weight": 5
   }
 ]
