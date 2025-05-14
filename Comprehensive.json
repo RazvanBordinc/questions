@@ -5,7 +5,8 @@
     "category": "numerical",
     "text": "What is the next number in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ?",
     "options": ["10", "11", "12", "13", "14", "15"],
-    "correctAnswer": "13"
+    "correctAnswer": "13",
+    "weight": 5
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "category": "verbal",
     "text": "Which word is the odd one out?",
     "options": ["Lion", "Tiger", "Elephant", "Sparrow", "Cheetah", "Leopard"],
-    "correctAnswer": "Sparrow"
+    "correctAnswer": "Sparrow",
+    "weight": 4
   },
   {
     "id": 3,
@@ -27,6 +29,372 @@
       ["book", "page"]
     ],
     "missingIndices": [[1], [0], [1]],
-    "correctAnswer": "pair-0-word-1:moon,pair-1-word-0:car,pair-2-word-1:page"
+    "correctAnswer": "pair-0-word-1:moon,pair-1-word-0:car,pair-2-word-1:page",
+    "weight": 3
+  },
+  {
+    "id": 4,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "If 3 + x = 10, what is the value of x?",
+    "correctAnswer": "7",
+    "weight": 2
+  },
+  {
+    "id": 5,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word means the opposite of 'abundant'?",
+    "options": ["Scarce", "Plenty", "Excessive", "Ample", "Numerous", "Bountiful"],
+    "correctAnswer": "Scarce",
+    "weight": 6
+  },
+  {
+    "id": 6,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "If a shirt originally costs $80 and is on sale for 25% off, what is the sale price?",
+    "options": ["$55", "$60", "$65", "$70", "$75", "$20"],
+    "correctAnswer": "$60",
+    "weight": 4
+  },
+  {
+    "id": 7,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Tree is to Forest as Star is to _____",
+    "correctAnswer": "Galaxy",
+    "weight": 5
+  },
+  {
+    "id": 8,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these number pairs and recall the missing numbers",
+    "memorizationTime": 15,
+    "pairs": [
+      ["12", "34"],
+      ["56", "78"],
+      ["90", "21"]
+    ],
+    "missingIndices": [[1], [0], [1]],
+    "correctAnswer": "pair-0-word-1:34,pair-1-word-0:56,pair-2-word-1:21",
+    "weight": 4
+  },
+  {
+    "id": 9,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "What is the next number in the sequence: 3, 6, 12, 24, ?",
+    "options": ["30", "36", "42", "48", "54", "60"],
+    "correctAnswer": "48",
+    "weight": 4
+  },
+  {
+    "id": 10,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the proverb: 'Don't put all your eggs in one _____'",
+    "correctAnswer": "basket",
+    "weight": 3
+  },
+  {
+    "id": 11,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these word triplets and recall the missing words",
+    "memorizationTime": 25,
+    "pairs": [
+      ["apple", "orange", "banana"],
+      ["red", "green", "blue"],
+      ["dog", "cat", "bird"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2]],
+    "correctAnswer": "pair-0-word-0:apple,pair-0-word-2:banana,pair-1-word-1:green,pair-2-word-0:dog,pair-2-word-2:bird",
+    "weight": 7
+  },
+  {
+    "id": 12,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "If a car travels at 60 miles per hour, how far will it travel in 2.5 hours?",
+    "options": ["120 miles", "150 miles", "180 miles", "200 miles", "210 miles", "240 miles"],
+    "correctAnswer": "150 miles",
+    "weight": 3
+  },
+  {
+    "id": 13,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Pen is to Writer as Brush is to _____",
+    "correctAnswer": "Painter",
+    "weight": 4
+  },
+  {
+    "id": 14,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "What is the square root of 144?",
+    "options": ["10", "11", "12", "13", "14", "15"],
+    "correctAnswer": "12",
+    "weight": 3
+  },
+  {
+    "id": 15,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these capital-country pairs and recall the missing elements",
+    "memorizationTime": 20,
+    "pairs": [
+      ["Paris", "France"],
+      ["London", "England"],
+      ["Rome", "Italy"],
+      ["Tokyo", "Japan"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:France,pair-1-word-0:London,pair-2-word-1:Italy,pair-3-word-0:Tokyo",
+    "weight": 6
+  },
+  {
+    "id": 16,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which word is closest in meaning to 'benevolent'?",
+    "options": ["Kind", "Strict", "Angry", "Jealous", "Envious", "Spiteful"],
+    "correctAnswer": "Kind",
+    "weight": 5
+  },
+  {
+    "id": 17,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "If 5x + 3 = 18, what is the value of x?",
+    "correctAnswer": "3",
+    "weight": 3
+  },
+  {
+    "id": 18,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which of these words contains a spelling error?",
+    "options": ["Necessary", "Accommodate", "Definately", "Separate", "Occurrence", "Embarrass"],
+    "correctAnswer": "Definately",
+    "weight": 6
+  },
+  {
+    "id": 19,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these color-object pairs and recall the missing words",
+    "memorizationTime": 18,
+    "pairs": [
+      ["red", "apple"],
+      ["blue", "sky"],
+      ["green", "grass"],
+      ["yellow", "sun"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:apple,pair-1-word-0:blue,pair-2-word-1:grass,pair-3-word-0:yellow",
+    "weight": 4
+  },
+  {
+    "id": 20,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "A rectangle has a perimeter of 30 cm and a width of 5 cm. What is its length?",
+    "correctAnswer": "10",
+    "weight": 5
+  },
+  {
+    "id": 21,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which of these sentences contains a grammatical error?",
+    "options": [
+      "The children are playing in the park.",
+      "She has went to the store already.",
+      "They finished their homework on time.",
+      "We saw a movie last weekend.",
+      "He doesn't like chocolate ice cream.",
+      "The cat is sleeping on the couch."
+    ],
+    "correctAnswer": "She has went to the store already.",
+    "weight": 5
+  },
+  {
+    "id": 22,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "What is 25% of 80?",
+    "correctAnswer": "20",
+    "weight": 2
+  },
+  {
+    "id": 23,
+    "type": "multiple-choice",
+    "category": "memory",
+    "text": "If you memorized the sequence 7, 2, 9, 5, 3, what was the third number?",
+    "options": ["2", "3", "5", "7", "8", "9"],
+    "correctAnswer": "9",
+    "weight": 4
+  },
+  {
+    "id": 24,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the word: P _ _ C _ P T _ _ N",
+    "correctAnswer": "ERCEPTIO",
+    "weight": 7
+  },
+  {
+    "id": 25,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "If a pizza is cut into 8 equal slices and 3 slices are eaten, what fraction of the pizza remains?",
+    "options": ["3/8", "3/5", "5/8", "5/3", "2/5", "2/3"],
+    "correctAnswer": "5/8",
+    "weight": 4
+  },
+  {
+    "id": 26,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these animal-habitat triplets and recall the missing elements",
+    "memorizationTime": 25,
+    "pairs": [
+      ["fish", "water", "ocean"],
+      ["bird", "nest", "tree"],
+      ["lion", "pride", "savanna"]
+    ],
+    "missingIndices": [[0, 2], [1], [0, 2]],
+    "correctAnswer": "pair-0-word-0:fish,pair-0-word-2:ocean,pair-1-word-1:nest,pair-2-word-0:lion,pair-2-word-2:savanna",
+    "weight": 8
+  },
+  {
+    "id": 27,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "A 'polyglot' is someone who:",
+    "options": ["Speaks many languages", "Studies politics", "Practices polygamy", "Has multiple jobs", "Writes poetry", "Creates polygons"],
+    "correctAnswer": "Speaks many languages",
+    "weight": 7
+  },
+  {
+    "id": 28,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "If a triangle has angles of 30° and 60°, what is the measure of the third angle?",
+    "correctAnswer": "90",
+    "weight": 4
+  },
+  {
+    "id": 29,
+    "type": "multiple-choice",
+    "category": "memory",
+    "text": "If you were shown a series of shapes: circle, square, triangle, star, hexagon, which shape came before the star?",
+    "options": ["Circle", "Square", "Triangle", "Hexagon", "Pentagon", "Octagon"],
+    "correctAnswer": "Triangle",
+    "weight": 5
+  },
+  {
+    "id": 30,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the analogy: Hammer is to Nail as Scissors is to _____",
+    "correctAnswer": "Paper",
+    "weight": 3
+  },
+  {
+    "id": 31,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "Which of these fractions is the largest?",
+    "options": ["3/8", "5/12", "7/16", "9/20", "11/24", "1/3"],
+    "correctAnswer": "3/8",
+    "weight": 6
+  },
+  {
+    "id": 32,
+    "type": "memory-pair",
+    "category": "memory",
+    "text": "Memorize these object-location pairs and recall the missing elements",
+    "memorizationTime": 20,
+    "pairs": [
+      ["keys", "drawer"],
+      ["book", "shelf"],
+      ["shoes", "closet"],
+      ["glasses", "table"]
+    ],
+    "missingIndices": [[1], [0], [1], [0]],
+    "correctAnswer": "pair-0-word-1:drawer,pair-1-word-0:book,pair-2-word-1:closet,pair-3-word-0:glasses",
+    "weight": 5
+  },
+  {
+    "id": 33,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "If a rectangle has an area of 48 square cm and a width of 6 cm, what is its length?",
+    "correctAnswer": "8",
+    "weight": 4
+  },
+  {
+    "id": 34,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which of these words does not belong with the others?",
+    "options": ["Run", "Walk", "Jump", "Table", "Crawl", "Skip"],
+    "correctAnswer": "Table",
+    "weight": 3
+  },
+  {
+    "id": 35,
+    "type": "fill-in-gap",
+    "category": "memory",
+    "text": "If you memorized the sequence red, blue, green, yellow, purple, what color came after green?",
+    "correctAnswer": "yellow",
+    "weight": 3
+  },
+  {
+    "id": 36,
+    "type": "multiple-choice",
+    "category": "numerical",
+    "text": "What is the value of 4³?",
+    "options": ["12", "16", "32", "48", "64", "128"],
+    "correctAnswer": "64",
+    "weight": 3
+  },
+  {
+    "id": 37,
+    "type": "fill-in-gap",
+    "category": "verbal",
+    "text": "Complete the saying: 'Actions speak louder than _____'",
+    "correctAnswer": "words",
+    "weight": 2
+  },
+  {
+    "id": 38,
+    "type": "multiple-choice",
+    "category": "memory",
+    "text": "If you were shown a sequence of letters: A, C, F, J, O, what would come next following the pattern?",
+    "options": ["T", "U", "V", "W", "X", "Y"],
+    "correctAnswer": "U",
+    "weight": 8
+  },
+  {
+    "id": 39,
+    "type": "fill-in-gap",
+    "category": "numerical",
+    "text": "If 2x - 7 = 15, what is the value of x?",
+    "correctAnswer": "11",
+    "weight": 3
+  },
+  {
+    "id": 40,
+    "type": "multiple-choice",
+    "category": "verbal",
+    "text": "Which of these words is a synonym for 'taciturn'?",
+    "options": ["Loud", "Talkative", "Quiet", "Angry", "Confused", "Excited"],
+    "correctAnswer": "Quiet",
+    "weight": 8
   }
 ]
